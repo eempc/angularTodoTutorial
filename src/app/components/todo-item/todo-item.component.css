@@ -1,0 +1,22 @@
+.del {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 9px;
+    cursor: pointer;
+    float: right;
+}
+
+.todo {
+    background: grey;
+    padding: 10px;
+    border-bottom: 1px blue dotted;
+}
+
+.is-completed {
+    text-decoration: line-through;
+}
+
+.todo-item-container {
+    display: flex;
+}

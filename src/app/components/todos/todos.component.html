@@ -1,6 +1,11 @@
+<div>--------</div>
 <p>todos works!</p>
 
 <!-- What the heck is this syntax, CSHTML made far more sense -->
 <ul *ngFor="let todo of todos">
-    <li>{{ todo.title }}</li>
+    <li><!--Incorrect way to this {{ todo.title }}--></li>
 </ul>
+
+<div>--------</div>
+
+<app-todo-item *ngFor="let todo of todos" [todo]="todo"></app-todo-item>
