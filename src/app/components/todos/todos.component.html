@@ -1,1 +1,6 @@
 <p>todos works!</p>
+
+<!-- What the heck is this syntax, CSHTML made far more sense -->
+<ul *ngFor="let todo of todos">
+    <li>{{ todo.title }}</li>
+</ul>

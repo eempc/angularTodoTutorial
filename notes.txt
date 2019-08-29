@@ -10,3 +10,15 @@ src/app/app.module.ts is the entry point, components are added in there
 
 the components folder was created by
 "ng generate component components/Todos"
+
+-----
+
+In the main index.html in the root directory there is a special tag:
+
+<app-root>
+
+This refers to the xxx.component.ts which has a selector named 'app-root'.
+Think of it as like a partial CSHTML or RenderBody of CSHTML. You can only put one in it seems.
+
+Each TS file is like the razor page C# code
+Each HTMl file is like the razor page CSHTML code
