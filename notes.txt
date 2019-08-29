@@ -1,0 +1,12 @@
+Additional stylesheets, bootstrap, font awesome, etc, should go into angular.json
+It seems that static CSS and JS files can go in here
+Look for the section:
+
+"styles": [
+    "src/styles.css"
+],
+
+src/app/app.module.ts is the entry point, components are added in there
+
+the components folder was created by
+"ng generate component components/Todos"
