@@ -1,6 +1,6 @@
 
-<div (change)="onToggle(todo)" class="todo-item-container" [ngClass]="setClasses()">
-    <input type="checkbox" />
+<div  class="todo-item-container" [ngClass]="setClasses()">
+    <input type="checkbox" (change)="onToggle(todo)" />
     Correct way to do this {{ todo.title }}
     <button (click)="onDelete(todo)" class="del">X</button>
 </div>
