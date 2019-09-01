@@ -25,3 +25,5 @@ Each HTMl file is like the razor page CSHTML code, and must be wrapped in one <d
 
 I don't get it, I just don't.
 This component here, there, service here and there. Strange syntax. This is confusing.
+
+I think I will switch to trying Vue.
